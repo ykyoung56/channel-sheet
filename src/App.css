@@ -1,33 +1,28 @@
-.Title {
+.container {
+  display: grid;
+  justify-items: center;
+  font: "Open sans";
+}
+
+.App {
+  width: 640px;
+}
+.title {
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
+  border-bottom: 1px solid grey;
 }
 
-.Information {
-  display: grid;
-  grid-template-columns: 1fr 10fr;
-  font-size: 1.5rem;
-  border: black 1px solid;
+.information {
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
 }
 
-.Information-title {
-  display: inline-block;
-  text-align: right;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 120px;
+.show {
+  display: auto;
 }
 
-.Information-textarea {
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.Information-input-text {
-  resize: none;
-  width: 90%;
-  height: 1rem;
+.hide {
+  display: none;
 }
